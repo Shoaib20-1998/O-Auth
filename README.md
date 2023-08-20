@@ -12,6 +12,7 @@
 <h3>⭕ Frontend :- </h3>
 <h3>⭕ Backend :- </h3>
 <h4> &nbsp &nbsp🔷 Routes:-</h4>
+&nbsp &nbsp&nbsp &nbsp◼ /: Get All the users</br>  
 &nbsp &nbsp&nbsp &nbsp◼ /signup: To register a new user.</br>  
 &nbsp &nbsp&nbsp &nbsp◼ /signin: To login a registered user.</br>  
 &nbsp &nbsp&nbsp &nbsp◼ /auth/google: For Google OAuth.</br>  
