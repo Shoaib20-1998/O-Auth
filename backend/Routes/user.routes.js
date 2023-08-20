@@ -3,7 +3,7 @@ const { SignupUser, LoginUser,ReadAllUsers } = require('../Controllers/user.cont
 const Routes = express.Router()
 
 Routes.post('/signup',SignupUser)
-Routes.post('/login',LoginUser)
+Routes.post('/signin',LoginUser)
 Routes.get('/',ReadAllUsers)
 
 
