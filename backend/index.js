@@ -4,14 +4,24 @@ require('dotenv').config()
 const cors = require("cors");
 require('./Controllers/Passport-config');
 require('./Controllers/GooglePassport')
+require('./Controllers/GithubPassport')
 const passport= require('passport')
-const cookieSession=require('cookie-session')
 const session = require('express-session')
 const app=express()
-app.use(cors());
-app.use(express.json())
 
-app.use(session({ secret: 'cats'}));
+app.use(cors({exposedHeaders: ['Access-Control-Allow-Origin'], origin: 'https://xerocodee-mauve.vercel.app', credentials: true }));
+app.use(express.json())
+app.set('trust proxy',1)
+app.use(session({ 
+    secret: 'cats',
+    resave:true,
+    saveUninitialized:true,
+    cookie:{
+        sameSite:'none',
+        secure:true,
+        maxAge:1000*60*60*24*7
+    }
+}));
 app.use(passport.initialize());
 app.use(passport.session());
 

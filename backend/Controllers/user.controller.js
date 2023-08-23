@@ -79,7 +79,6 @@ const LoginUser = (req, res, next) => {
 };
 
 
-
 // getAllusers
 const ReadAllUsers = async (req, res) => {
   const params = {
@@ -94,16 +93,6 @@ const ReadAllUsers = async (req, res) => {
   }
 }
 
-//GoogleAuthFail
-const AuthFail = (req, res) => {
-  res.send("something went wrong")
-}
-
-
-//GoogleAuthSuccess
-const AuthSuccess = async (req, res) => {
-  res.send(req.user.displayName)
-}
 
 //SessionDistroy
 const SessionDestroy = async (req, res) => {
@@ -113,37 +102,6 @@ const SessionDestroy = async (req, res) => {
 }
 
 
-//GithubAuth
-const GithubAuth = async (req, res) => {
-  const { code } = req.query
-  console.log(code)
-  try {
-    let accessToken = await fetch('https://github.com/login/oauth/access_token', {
-      method: "POST",
-      headers: {
-        Accept: 'application/json',
-        "content-type": "application/json"
-      },
-      body: JSON.stringify({
-        client_id: process.env.Gihub_Clinet_ID,
-        client_secret: process.env.Gihub_Client_Secret,
-        code: code
-      })
-    })
-     .then((res) => res.json())
-    const userdetails = await fetch(`https://api.github.com/user`, {
-      headers: {
-        Authorization: `Bearer ${accessToken.access_token}`
-      }
-    }).then((res) => res.json())
-    
-    res.send(userdetails)
-    
-  } catch (error) {
-    res.send(error)
-  }
-
-}
 module.exports = {
-  GithubAuth, SignupUser, LoginUser, ReadAllUsers, getUserByEmail, getUserById, AuthFail, AuthSuccess, SessionDestroy
+  SignupUser, LoginUser, ReadAllUsers, getUserByEmail, getUserById, SessionDestroy
 }
