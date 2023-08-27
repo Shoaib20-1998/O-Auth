@@ -73,7 +73,9 @@ Make sure you have the necessary environment variables and configurations set up
 ## Project URLs
 
 - **Backend Base URL:** [https://xero-x8k9.onrender.com](https://xero-x8k9.onrender.com)
-- **Frontend Base URL:** [https://xerocodee-mauve.vercel.app/](https://xerocodee-mauve.vercel.app/)
+- **Frontend Base URL:** [https://xerocodee-mauve.vercel.app/](https://xerocodee-mauve.vercel.app)
+- **Backend Base URL Localally:** [http://localhost:8080](http://localhost:8080)
+- **Frontend Base URL Locally:**  [http://localhost:3000](http://localhost:3000)
 
 Feel free to explore, contribute, and make use of this project for your authentication needs. If you encounter any issues or have suggestions for improvements, please don't hesitate to reach out.
 
