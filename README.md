@@ -87,9 +87,11 @@ Make sure you have the necessary environment variables and configurations set up
 ![Signup Page ](https://github.com/Shoaib20-1998/XeroCodee/assets/112754545/01519250-3afd-4fe9-98ef-51d61efad7a7)
 ***  
 ◼ Login Page :
+
 ![Login Page ](https://github.com/Shoaib20-1998/XeroCodee/assets/112754545/80e2271c-3400-4a0f-a028-db223bbc9d7c)
 ***  
 ◼ Dashboard page Selected by Company option :
+
 ![Dashboard Selected by Company](https://github.com/Shoaib20-1998/XeroCodee/assets/112754545/1d99702e-3e46-4eaa-9985-308514f12866)
 ***  
 ◼ Dashboard page Selected by Organization option :
@@ -105,6 +107,7 @@ Make sure you have the necessary environment variables and configurations set up
 ![After Selecting the Selfhosting option](https://github.com/Shoaib20-1998/XeroCodee/assets/112754545/dc5a0692-7c69-43c3-87d4-81297cbacd3d)
 ***  
 ◼ After Submitting user's github username :
+
 ![After Submitting your github username ](https://github.com/Shoaib20-1998/XeroCodee/assets/112754545/05034049-7238-443f-a15d-8a1ca492987c)
 ***  
 ◼ Google Auth :
