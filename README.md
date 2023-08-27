@@ -25,7 +25,7 @@ The primary goal of this project is to establish a robust and secure authenticat
 - Integration of **DynamoDB** and **Redis** for backend data storage
 - Implementation of **Express.js** and **Node.js** for backend server functionality
 - Seamless authentication flow managed by **Passport.js**
-
+- fetch  **Github reposistory** by providing username
 ## Tech Stack
 
 - **Frontend:**
@@ -67,7 +67,7 @@ Make sure you have the necessary environment variables and configurations set up
 - `/login`: Login page
 - `/dashboard`: User dashboard
 - `/deploy`: Deployment section
-- `/selfhost`: Self-hosting information
+- `/selfhost`: Self-hosting information ( fetch all users repository using his/her username )
 - `/githubdeploy`: GitHub deployment information
 
 ## Project URLs
