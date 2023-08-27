@@ -1,6 +1,6 @@
 # XeroCodee Authentication
 
-Welcome to the README file for eroCodee Authentication. This project focuses on providing secure authentication using various methods such as credentials, Git authentication, and Google authentication. The project encompasses both frontend and backend components to achieve this functionality.
+Welcome to the README file for XeroCodee Authentication. This project focuses on providing secure authentication using various methods such as credentials, Git authentication, and Google authentication. The project encompasses both frontend and backend components to achieve this functionality.
 
 ## Table of Contents
 
