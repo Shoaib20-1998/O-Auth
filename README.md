@@ -77,8 +77,45 @@ Make sure you have the necessary environment variables and configurations set up
 - **Backend Base URL Localally:** [http://localhost:8080](http://localhost:8080)
 - **Frontend Base URL Locally:**  [http://localhost:3000](http://localhost:3000)
 
-Feel free to explore, contribute, and make use of this project for your authentication needs. If you encounter any issues or have suggestions for improvements, please don't hesitate to reach out.
+
+
+
+## Some of the Frontend Screenshots with userflow:
+
+◼ Signup Page : 
+
+![Signup Page ](https://github.com/Shoaib20-1998/XeroCodee/assets/112754545/01519250-3afd-4fe9-98ef-51d61efad7a7)
+***  
+◼ Login Page :
+![Login Page ](https://github.com/Shoaib20-1998/XeroCodee/assets/112754545/80e2271c-3400-4a0f-a028-db223bbc9d7c)
+***  
+◼ Dashboard page Selected by Company option :
+![Dashboard Selected by Company](https://github.com/Shoaib20-1998/XeroCodee/assets/112754545/1d99702e-3e46-4eaa-9985-308514f12866)
+***  
+◼ Dashboard page Selected by Organization option :
+
+![Organization](https://github.com/Shoaib20-1998/XeroCodee/assets/112754545/29d1c754-d336-426d-af74-59c1ae5ca924)
+***  
+◼ Dashboard page Selected by Developer option :
+
+![After Selecting the developer option](https://github.com/Shoaib20-1998/XeroCodee/assets/112754545/b401c055-1547-4ad3-9a2e-e218222b660e)
+***  
+◼ Dashboard page Selected by Selfhosting option :
+
+![After Selecting the Selfhosting option](https://github.com/Shoaib20-1998/XeroCodee/assets/112754545/dc5a0692-7c69-43c3-87d4-81297cbacd3d)
+***  
+◼ After Submitting user's github username :
+![After Submitting your github username ](https://github.com/Shoaib20-1998/XeroCodee/assets/112754545/05034049-7238-443f-a15d-8a1ca492987c)
+***  
+◼ Google Auth :
+
+![Google Auth](https://github.com/Shoaib20-1998/XeroCodee/assets/112754545/3911d5b5-839c-4729-8194-1414c1942da0)
+***  
+◼ Github Auth :
+
+![Github Auth](https://github.com/Shoaib20-1998/XeroCodee/assets/112754545/6b5bfdc7-5cc3-4092-9f14-1247f0cf8da3)
 
 ---
+Feel free to explore, contribute, and make use of this project for your authentication needs. If you encounter any issues or have suggestions for improvements, please don't hesitate to reach out.
 
 This README serves as a comprehensive guide to the eroCodee Authentication. For any further questions or assistance, please contact Shoaib Mansuri at [shoaibmansuri235@email.com].
