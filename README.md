@@ -94,11 +94,13 @@ Make sure you have the necessary environment variables and configurations set up
 ***  
 ◼ Dashboard page Selected by Company option :
 
-![Dashboard Selected by Company](https://github.com/Shoaib20-1998/XeroCodee/assets/112754545/1d99702e-3e46-4eaa-9985-308514f12866)
+![Dashboard page Selected by Company option](https://github.com/Shoaib20-1998/XeroCodee/assets/112754545/f7d1fd12-663a-4c8a-b2da-33bf35f65238)
+
 ***  
 ◼ Dashboard page Selected by Organization option :
 
-![Organization](https://github.com/Shoaib20-1998/XeroCodee/assets/112754545/29d1c754-d336-426d-af74-59c1ae5ca924)
+![ Dashboard page Selected by Organization option ](https://github.com/Shoaib20-1998/XeroCodee/assets/112754545/02561b4c-b355-4bc8-aeeb-5f5527f16342)
+
 ***  
 ◼ Dashboard page Selected by Developer option :
 
