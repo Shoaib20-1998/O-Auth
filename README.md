@@ -11,7 +11,7 @@ Welcome to the README file for eroCodee Authentication. This project focuses on 
 - [Backend Routes](#backend-routes)
 - [Frontend Routes](#frontend-routes)
 - [Project URLs](#project-urls)
-- [Screenshot](#screenshots-of-userflow-on=ui)
+- [Screenshots of Userflow](#project-urls)
   
 
 ## Introduction
